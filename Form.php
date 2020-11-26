@@ -77,7 +77,7 @@
             //Pasaka "Jūsu pieprasījums tika nosūtīts" kad tiek nospiesta poga
             if(isset($_POST['submit'])){
                 //Parāda ko lietotājs ievadīja laukā masina
-                echo $_POST['Masina'];
+                echo $_POST['submit'];
             }
         ?>
     </div>
